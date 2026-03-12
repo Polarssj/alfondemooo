@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@300&display=swap');
+
+body{
+margin:0;
+background:linear-gradient(180deg,#ffd6e7,#fff0f6);
+font-family:'Poppins',sans-serif;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+min-height:100vh;
+}
+
+/* telefono */
+
+.phone{
+width:360px;
+background:linear-gradient(180deg,#fff6fb,#ffe3ef);
+border-radius:30px;
+display:flex;
+flex-direction:column;
+align-items:center;
+box-shadow:0 20px 40px rgba(0,0,0,0.25);
+padding-bottom:40px;
+}
+
+/* galeria */
+
+.gallery{
+width:100%;
+display:flex;
+justify-content:center;
+margin-top:40px;
+}
+
+/* polaroid */
+
+.polaroid{
+background:white;
+padding:14px 14px 60px 14px;
+box-shadow:0 12px 30px rgba(0,0,0,0.25);
+display:none;
+border-radius:6px;
+}
+
+.polaroid.active{
+display:block;
+}
+
+/* foto */
+
+.polaroid img{
+width:210px;
+height:210px;
+object-fit:cover;
+display:block;
+border-radius:3px;
+}
+
+/* carta */
+
+.text{
+width:85%;
+margin-top:30px;
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* texto */
+
+.text p{
+font-family:'Dancing Script',cursive;
+font-size:26px;
+line-height:1.6;
+color:#b03060;
+text-align:center;
+}
